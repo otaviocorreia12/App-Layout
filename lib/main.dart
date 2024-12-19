@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const CalculatorApp());
+  runApp(const App());
 }
 
-class CalculatorApp extends StatelessWidget {
-  const CalculatorApp({super.key});
+class App extends StatelessWidget {
+  const App({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -16,13 +16,13 @@ class CalculatorApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
-      home: const CalculatorLayout(),
+      home: const AppLayout(),
     );
   }
 }
 
-class CalculatorLayout extends StatelessWidget {
-  const CalculatorLayout({super.key});
+class AppLayout extends StatelessWidget {
+  const AppLayout({super.key});
 
   @override
   Widget build(BuildContext context) {
