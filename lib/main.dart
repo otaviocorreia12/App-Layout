@@ -30,7 +30,7 @@ class CalculatorLayout extends StatelessWidget {
       backgroundColor: Colors.black,
       appBar: AppBar(
         backgroundColor: Colors.blueGrey,
-        title: const Text('Calculadora'),
+        title: const Text('Layout'),
         centerTitle: true,
       ),
       body: Center(
